@@ -179,7 +179,7 @@ module mips ();
 
 	initial begin
 
-		$monitor("Instrucao: %b\nSaida PC: %b \nSaida ALU: %b \n", instrucao, endEntrada, endALU);
+		$monitor("Instrucao: %b\nSaida PC: %b \nSaida ALU: %b \n", instrucao, endSaida, endALU);
 		//$monitor("Saida PC: %b \n", endSaida);
 		//$monitor("Saida ALU2: %b \n", endALU);
 
